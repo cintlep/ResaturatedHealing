@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "resaturated-healing",
+	"version": "${version}",
+	"name": "Resaturated Healing",
+	"description": "Saturation healing heals half a heart less",
+	"authors": [
+		"cintlex"
+	],
+	"contact": {
+		"sources": "https://github.com/cintlep/ResaturatedHealing",
+		"issues": "https://github.com/cintlep/ResaturatedHealing/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/resaturated-healing/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cintlex.rh.ResaturatedHealing"
+		]
+	},
+	"mixins": [
+		"resaturated-healing.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21.7",
+		"java": ">=21"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
